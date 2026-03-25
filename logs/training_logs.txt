@@ -1,0 +1,13 @@
+--- FASE Architecture Training Logs ---
+Best Iteration: 60
+Final Validation LogLoss: 0.3104
+
+--- Holdout Test Set Report ---
+              precision    recall  f1-score   support
+
+    Safe (0)       0.90      0.60      0.72        30
+  Unsafe (1)       0.88      0.98      0.92        88
+
+    accuracy                           0.88       118
+   macro avg       0.89      0.79      0.82       118
+weighted avg       0.88      0.88      0.87       118
